@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-jetBrains bg-gray-100 pb-6
+}
+
+.br-profile {
+    border-radius: 166px 380px 140px 269px / 162px 168px 180px 196px;
+}
+
+.glass {
+    background: rgba(84, 86, 90, 0.32);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(155, 157, 161, 0.702);
+}
